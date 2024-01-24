@@ -1,0 +1,14 @@
+{
+  "name": "supervised-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run compile && node main.js",
+    "compile": "tsc main.ts --lib es6,dom "
+
+  },
+  "author": "",
+  "license": "ISC"
+}
